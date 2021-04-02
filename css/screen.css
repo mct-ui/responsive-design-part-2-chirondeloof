@@ -679,9 +679,20 @@ a:focus {
 .c-title-icon{
     display: flex;
 }
-@media
 .c-title-icon__icon{
     height: 80px;
+    padding-right: 8px;
+}
+
+@media (min-width: 768px) {
+    .c-title-icon__icon{
+    height: 96px;
+}
+}
+@media (min-width: 1200) {
+    .c-title-icon__icon{
+    height: 128px;
+}
 }
 
 /*------------------------------------*\

@@ -223,6 +223,10 @@ a:focus {
     }
 }
 
+.o-row--gradient{
+    background: linear-gradient(to top right, #5051DB 0%,#3887F7 100%);
+}
+
 /*
     Objects: Container
     ---
@@ -604,6 +608,17 @@ a:focus {
     transform: scaleX(1);
     background-color: #3e3ea8;
 }
+
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active{
+    color: #fff;
+}
+.c-link-cta--inverse::after,
+.c-link-cta--inverse:hover::after{
+    background-color: #fff;
+}
+
 
 /*------------------------------------*\
   #UTILITIES
